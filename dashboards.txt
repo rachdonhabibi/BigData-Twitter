@@ -1,0 +1,131 @@
+Voici ce qu’il reste à faire, simplement.
+
+---
+
+## 1. Commandes (une fois le job `analytics_tweets_job.py` créé)
+
+Depuis ton dossier du projet :
+
+````powershell
+cd "D:\3eme Année\projet big data\BigData-Reddit"
+
+docker compose exec spark-master spark-submit `
+  --packages org.mongodb.spark:mongo-spark-connector_2.12:10.2.0 `
+  /opt/bitnami/spark/src/processing/analytics_tweets_job.py
+````
+
+Puis vérifier les collections créées :
+
+````powershell
+docker compose exec mongodb mongosh -u root -p password123 --authenticationDatabase admin --eval "db.getSiblingDB('reddit_data').getCollectionNames()"
+````
+
+Tu dois voir :  
+`tweets_clean`, `tweets_kpi_daily`, `tweets_kpi_daily_lang`, `tweets_kpi_hashtags`, `tweets_kpi_users`, etc.
+
+---
+
+## 2. À quoi ressemblent les 4 tables (collections) ?
+
+### 2.1. `tweets_kpi_daily` – activité globale par jour
+
+Un document ≈ un jour :
+
+````json
+{
+  "date": "2022-03-05",      // jour (YYYY-MM-DD)
+  "tweets_count": 12345,     // nb de tweets ce jour-là
+  "engagement_sum": 67890    // somme totale d'engagement ce jour-là
+}
+````
+
+### 2.2. `tweets_kpi_daily_lang` – activité par jour et langue
+
+Un document ≈ (jour, langue) :
+
+````json
+{
+  "date": "2022-03-05",
+  "lang": "en",
+  "tweets_count": 9500,
+  "engagement_sum": 54000
+}
+````
+
+### 2.3. `tweets_kpi_hashtags` – stats par hashtag
+
+Un document ≈ un hashtag :
+
+````json
+{
+  "hashtag": "Ukraine",
+  "tweets_count": 120000,    // nb de tweets contenant ce hashtag
+  "engagement_sum": 850000   // somme des engagements sur ces tweets
+}
+````
+
+### 2.4. `tweets_kpi_users` – stats par utilisateur
+
+Un document ≈ un utilisateur :
+
+````json
+{
+  "username": "OVCMLKY",
+  "tweets_count": 320,       // nb de tweets de cet utilisateur
+  "engagement_sum": 4500     // somme des engagements sur ses tweets
+}
+````
+
+---
+
+## 3. Comment on les utilisera pour les 2 dashboards
+
+### Dashboard 1 – Vue temporelle & globale
+
+Sources :  
+- `tweets_kpi_daily`
+- `tweets_kpi_daily_lang`
+
+**KPI (6) :**
+
+1. Total de tweets = somme de `tweets_kpi_daily.tweets_count`
+2. Engagement total = somme de `tweets_kpi_daily.engagement_sum`
+3. Engagement moyen / tweet = (KPI2 / KPI1)
+4. Nombre de jours couverts = nombre de dates distinctes dans `tweets_kpi_daily`
+5. Max de tweets en un jour = max(`tweets_kpi_daily.tweets_count`)
+6. Date du pic de tweets = date associée à ce max
+
+**Graphiques Power BI :**
+
+- Courbe tweets / jour (table `tweets_kpi_daily`)
+- Courbe engagement / jour (même table)
+- Aire/barres empilées tweets / jour / langue (table `tweets_kpi_daily_lang`)
+
+---
+
+### Dashboard 2 – Thématiques & acteurs
+
+Sources :  
+- `tweets_kpi_hashtags`
+- `tweets_kpi_users`
+- éventuellement `tweets_clean` pour quelques totaux
+
+**KPI (6) :**
+
+1. Nombre de hashtags distincts = count rows de `tweets_kpi_hashtags`
+2. Nombre de tweets avec au moins un hashtag = somme de `tweets_count` dans `tweets_kpi_hashtags`
+3. Hashtag le plus utilisé = `hashtag` avec max(`tweets_count`)
+4. Nb de tweets du hashtag le plus utilisé = ce max(`tweets_count`)
+5. Utilisateur avec le plus d’engagement = `username` avec max(`engagement_sum`) dans `tweets_kpi_users`
+6. Engagement total du top utilisateur = ce max(`engagement_sum`)
+
+**Graphiques Power BI :**
+
+- Bar chart Top 20 hashtags par `tweets_count` (table `tweets_kpi_hashtags`)
+- Bar chart Top 20 hashtags par `engagement_sum`
+- Bar chart Top 20 utilisateurs par `engagement_sum` (table `tweets_kpi_users`)
+- Table détaillée des utilisateurs (username, tweets_count, engagement_sum)
+
+---
+
+Si tu veux, au prochain message je te fournis le fichier `analytics_tweets_job.py` complet qui crée exactement ces 4 collections.

@@ -1,0 +1,1122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-01-20">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="degree" type="double" />
+      <attribute id="1" title="in_degree" type="double" />
+      <attribute id="2" title="out_degree" type="double" />
+      <attribute id="3" title="pagerank" type="double" />
+      <attribute id="4" title="community_id" type="long" />
+    </attributes>
+    <nodes>
+      <node id="UkrWarReport" label="UkrWarReport">
+        <attvalues>
+          <attvalue for="0" value="4348.0" />
+          <attvalue for="1" value="4348.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="131" />
+        </attvalues>
+      </node>
+      <node id="POTUS" label="POTUS">
+        <attvalues>
+          <attvalue for="0" value="3681.0" />
+          <attvalue for="1" value="3681.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="92" />
+        </attvalues>
+      </node>
+      <node id="YouTube" label="YouTube">
+        <attvalues>
+          <attvalue for="0" value="2387.0" />
+          <attvalue for="1" value="2387.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="68" />
+        </attvalues>
+      </node>
+      <node id="KremlinRussia_E" label="KremlinRussia_E">
+        <attvalues>
+          <attvalue for="0" value="1439.0" />
+          <attvalue for="1" value="1439.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="5" />
+        </attvalues>
+      </node>
+      <node id="NATO" label="NATO">
+        <attvalues>
+          <attvalue for="0" value="1426.0" />
+          <attvalue for="1" value="1426.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="McFaul" label="McFaul">
+        <attvalues>
+          <attvalue for="0" value="1288.0" />
+          <attvalue for="1" value="1281.0" />
+          <attvalue for="2" value="7.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="183" />
+        </attvalues>
+      </node>
+      <node id="Ukraine" label="Ukraine">
+        <attvalues>
+          <attvalue for="0" value="1244.0" />
+          <attvalue for="1" value="1244.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="43" />
+        </attvalues>
+      </node>
+      <node id="JoeBiden" label="JoeBiden">
+        <attvalues>
+          <attvalue for="0" value="1202.0" />
+          <attvalue for="1" value="1202.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="63" />
+        </attvalues>
+      </node>
+      <node id="Reuters" label="Reuters">
+        <attvalues>
+          <attvalue for="0" value="1190.0" />
+          <attvalue for="1" value="1186.0" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="586" />
+        </attvalues>
+      </node>
+      <node id="BorisJohnson" label="BorisJohnson">
+        <attvalues>
+          <attvalue for="0" value="1060.0" />
+          <attvalue for="1" value="1060.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="70" />
+        </attvalues>
+      </node>
+      <node id="SecBlinken" label="SecBlinken">
+        <attvalues>
+          <attvalue for="0" value="1001.0" />
+          <attvalue for="1" value="999.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="802" />
+        </attvalues>
+      </node>
+      <node id="ZelenskyyUa" label="ZelenskyyUa">
+        <attvalues>
+          <attvalue for="0" value="997.0" />
+          <attvalue for="1" value="996.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="540" />
+        </attvalues>
+      </node>
+      <node id="JackPosobiec" label="JackPosobiec">
+        <attvalues>
+          <attvalue for="0" value="930.0" />
+          <attvalue for="1" value="929.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="235" />
+        </attvalues>
+      </node>
+      <node id="FoxNews" label="FoxNews">
+        <attvalues>
+          <attvalue for="0" value="762.0" />
+          <attvalue for="1" value="760.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="100" />
+        </attvalues>
+      </node>
+      <node id="nytimes" label="nytimes">
+        <attvalues>
+          <attvalue for="0" value="759.0" />
+          <attvalue for="1" value="759.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="738" />
+        </attvalues>
+      </node>
+      <node id="mfa_russia" label="mfa_russia">
+        <attvalues>
+          <attvalue for="0" value="708.0" />
+          <attvalue for="1" value="707.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="CNN" label="CNN">
+        <attvalues>
+          <attvalue for="0" value="693.0" />
+          <attvalue for="1" value="693.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="287" />
+        </attvalues>
+      </node>
+      <node id="BBCWorld" label="BBCWorld">
+        <attvalues>
+          <attvalue for="0" value="665.0" />
+          <attvalue for="1" value="664.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1499" />
+        </attvalues>
+      </node>
+      <node id="SkyNews" label="SkyNews">
+        <attvalues>
+          <attvalue for="0" value="549.0" />
+          <attvalue for="1" value="539.0" />
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="926" />
+        </attvalues>
+      </node>
+      <node id="PoliticalGeeker" label="PoliticalGeeker">
+        <attvalues>
+          <attvalue for="0" value="529.0" />
+          <attvalue for="1" value="69.0" />
+          <attvalue for="2" value="460.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1715" />
+        </attvalues>
+      </node>
+      <node id="StateDept" label="StateDept">
+        <attvalues>
+          <attvalue for="0" value="519.0" />
+          <attvalue for="1" value="514.0" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="ggreenwald" label="ggreenwald">
+        <attvalues>
+          <attvalue for="0" value="484.0" />
+          <attvalue for="1" value="470.0" />
+          <attvalue for="2" value="14.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="113" />
+        </attvalues>
+      </node>
+      <node id="TuckerCarlson" label="TuckerCarlson">
+        <attvalues>
+          <attvalue for="0" value="475.0" />
+          <attvalue for="1" value="475.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="374" />
+        </attvalues>
+      </node>
+      <node id="JustinTrudeau" label="JustinTrudeau">
+        <attvalues>
+          <attvalue for="0" value="475.0" />
+          <attvalue for="1" value="475.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="385" />
+        </attvalues>
+      </node>
+      <node id="thehill" label="thehill">
+        <attvalues>
+          <attvalue for="0" value="457.0" />
+          <attvalue for="1" value="456.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="474" />
+        </attvalues>
+      </node>
+      <node id="AP" label="AP">
+        <attvalues>
+          <attvalue for="0" value="455.0" />
+          <attvalue for="1" value="455.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="651" />
+        </attvalues>
+      </node>
+      <node id="EndGameWW3" label="EndGameWW3">
+        <attvalues>
+          <attvalue for="0" value="452.0" />
+          <attvalue for="1" value="447.0" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="221" />
+        </attvalues>
+      </node>
+      <node id="JP1958S" label="JP1958S">
+        <attvalues>
+          <attvalue for="0" value="432.0" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="407.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="BBCNews" label="BBCNews">
+        <attvalues>
+          <attvalue for="0" value="423.0" />
+          <attvalue for="1" value="423.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="322" />
+        </attvalues>
+      </node>
+      <node id="trussliz" label="trussliz">
+        <attvalues>
+          <attvalue for="0" value="418.0" />
+          <attvalue for="1" value="418.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="231" />
+        </attvalues>
+      </node>
+      <node id="MFA_Ukraine" label="MFA_Ukraine">
+        <attvalues>
+          <attvalue for="0" value="416.0" />
+          <attvalue for="1" value="416.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="AJEnglish" label="AJEnglish">
+        <attvalues>
+          <attvalue for="0" value="412.0" />
+          <attvalue for="1" value="408.0" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="522" />
+        </attvalues>
+      </node>
+      <node id="zerohedge" label="zerohedge">
+        <attvalues>
+          <attvalue for="0" value="391.0" />
+          <attvalue for="1" value="391.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="956" />
+        </attvalues>
+      </node>
+      <node id="washingtonpost" label="washingtonpost">
+        <attvalues>
+          <attvalue for="0" value="381.0" />
+          <attvalue for="1" value="381.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="2035" />
+        </attvalues>
+      </node>
+      <node id="Yahoo" label="Yahoo">
+        <attvalues>
+          <attvalue for="0" value="379.0" />
+          <attvalue for="1" value="379.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="508" />
+        </attvalues>
+      </node>
+      <node id="WhiteHouse" label="WhiteHouse">
+        <attvalues>
+          <attvalue for="0" value="378.0" />
+          <attvalue for="1" value="378.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="108" />
+        </attvalues>
+      </node>
+      <node id="swimming_free" label="swimming_free">
+        <attvalues>
+          <attvalue for="0" value="361.0" />
+          <attvalue for="1" value="21.0" />
+          <attvalue for="2" value="340.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="6071" />
+        </attvalues>
+      </node>
+      <node id="MSNBC" label="MSNBC">
+        <attvalues>
+          <attvalue for="0" value="358.0" />
+          <attvalue for="1" value="358.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="466" />
+        </attvalues>
+      </node>
+      <node id="TulsiGabbard" label="TulsiGabbard">
+        <attvalues>
+          <attvalue for="0" value="358.0" />
+          <attvalue for="1" value="358.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="2149" />
+        </attvalues>
+      </node>
+      <node id="walterlekh" label="walterlekh">
+        <attvalues>
+          <attvalue for="0" value="353.0" />
+          <attvalue for="1" value="45.0" />
+          <attvalue for="2" value="308.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="601" />
+        </attvalues>
+      </node>
+      <node id="RusEmbUSA" label="RusEmbUSA">
+        <attvalues>
+          <attvalue for="0" value="349.0" />
+          <attvalue for="1" value="349.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="UN" label="UN">
+        <attvalues>
+          <attvalue for="0" value="338.0" />
+          <attvalue for="1" value="337.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="63" />
+        </attvalues>
+      </node>
+      <node id="GOP" label="GOP">
+        <attvalues>
+          <attvalue for="0" value="319.0" />
+          <attvalue for="1" value="319.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="456" />
+        </attvalues>
+      </node>
+      <node id="KyivIndependent" label="KyivIndependent">
+        <attvalues>
+          <attvalue for="0" value="315.0" />
+          <attvalue for="1" value="308.0" />
+          <attvalue for="2" value="7.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="4148" />
+        </attvalues>
+      </node>
+      <node id="RALee85" label="RALee85">
+        <attvalues>
+          <attvalue for="0" value="314.0" />
+          <attvalue for="1" value="314.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="3496" />
+        </attvalues>
+      </node>
+      <node id="GBNEWS" label="GBNEWS">
+        <attvalues>
+          <attvalue for="0" value="312.0" />
+          <attvalue for="1" value="309.0" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="634" />
+        </attvalues>
+      </node>
+      <node id="nigethugrug" label="nigethugrug">
+        <attvalues>
+          <attvalue for="0" value="306.0" />
+          <attvalue for="1" value="8.0" />
+          <attvalue for="2" value="298.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="2759" />
+        </attvalues>
+      </node>
+      <node id="RT_com" label="RT_com">
+        <attvalues>
+          <attvalue for="0" value="303.0" />
+          <attvalue for="1" value="302.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="37" />
+        </attvalues>
+      </node>
+      <node id="TheEconomist" label="TheEconomist">
+        <attvalues>
+          <attvalue for="0" value="301.0" />
+          <attvalue for="1" value="292.0" />
+          <attvalue for="2" value="9.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="31" />
+        </attvalues>
+      </node>
+      <node id="Russia" label="Russia">
+        <attvalues>
+          <attvalue for="0" value="300.0" />
+          <attvalue for="1" value="300.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="43" />
+        </attvalues>
+      </node>
+      <node id="RussianEmbassy" label="RussianEmbassy">
+        <attvalues>
+          <attvalue for="0" value="300.0" />
+          <attvalue for="1" value="299.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="CleeseRaymond" label="CleeseRaymond">
+        <attvalues>
+          <attvalue for="0" value="294.0" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="292.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="2646" />
+        </attvalues>
+      </node>
+      <node id="AFP" label="AFP">
+        <attvalues>
+          <attvalue for="0" value="291.0" />
+          <attvalue for="1" value="290.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1676" />
+        </attvalues>
+      </node>
+      <node id="Breaking911" label="Breaking911">
+        <attvalues>
+          <attvalue for="0" value="289.0" />
+          <attvalue for="1" value="289.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="108" />
+        </attvalues>
+      </node>
+      <node id="Meekeelee011" label="Meekeelee011">
+        <attvalues>
+          <attvalue for="0" value="286.0" />
+          <attvalue for="1" value="25.0" />
+          <attvalue for="2" value="261.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="14513" />
+        </attvalues>
+      </node>
+      <node id="NBCNews" label="NBCNews">
+        <attvalues>
+          <attvalue for="0" value="284.0" />
+          <attvalue for="1" value="282.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1503" />
+        </attvalues>
+      </node>
+      <node id="benandjerrys" label="benandjerrys">
+        <attvalues>
+          <attvalue for="0" value="283.0" />
+          <attvalue for="1" value="283.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="2006" />
+        </attvalues>
+      </node>
+      <node id="jensstoltenberg" label="jensstoltenberg">
+        <attvalues>
+          <attvalue for="0" value="282.0" />
+          <attvalue for="1" value="282.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="CFL68" label="CFL68">
+        <attvalues>
+          <attvalue for="0" value="279.0" />
+          <attvalue for="1" value="38.0" />
+          <attvalue for="2" value="241.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="WSJ" label="WSJ">
+        <attvalues>
+          <attvalue for="0" value="277.0" />
+          <attvalue for="1" value="277.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="200" />
+        </attvalues>
+      </node>
+      <node id="nypost" label="nypost">
+        <attvalues>
+          <attvalue for="0" value="276.0" />
+          <attvalue for="1" value="276.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1791" />
+        </attvalues>
+      </node>
+      <node id="jamesmoylan77" label="jamesmoylan77">
+        <attvalues>
+          <attvalue for="0" value="273.0" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="272.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="8618" />
+        </attvalues>
+      </node>
+      <node id="disclosetv" label="disclosetv">
+        <attvalues>
+          <attvalue for="0" value="272.0" />
+          <attvalue for="1" value="272.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="895" />
+        </attvalues>
+      </node>
+      <node id="AVindman" label="AVindman">
+        <attvalues>
+          <attvalue for="0" value="269.0" />
+          <attvalue for="1" value="263.0" />
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="628" />
+        </attvalues>
+      </node>
+      <node id="PurcellGregory" label="PurcellGregory">
+        <attvalues>
+          <attvalue for="0" value="268.0" />
+          <attvalue for="1" value="22.0" />
+          <attvalue for="2" value="246.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="7737" />
+        </attvalues>
+      </node>
+      <node id="newsmax" label="newsmax">
+        <attvalues>
+          <attvalue for="0" value="266.0" />
+          <attvalue for="1" value="261.0" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="347" />
+        </attvalues>
+      </node>
+      <node id="NatashaBertrand" label="NatashaBertrand">
+        <attvalues>
+          <attvalue for="0" value="265.0" />
+          <attvalue for="1" value="265.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1744" />
+        </attvalues>
+      </node>
+      <node id="EmmanuelMacron" label="EmmanuelMacron">
+        <attvalues>
+          <attvalue for="0" value="263.0" />
+          <attvalue for="1" value="263.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1869" />
+        </attvalues>
+      </node>
+      <node id="ASBMilitary" label="ASBMilitary">
+        <attvalues>
+          <attvalue for="0" value="263.0" />
+          <attvalue for="1" value="261.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1698" />
+        </attvalues>
+      </node>
+      <node id="STWuk" label="STWuk">
+        <attvalues>
+          <attvalue for="0" value="261.0" />
+          <attvalue for="1" value="253.0" />
+          <attvalue for="2" value="8.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="585" />
+        </attvalues>
+      </node>
+      <node id="natomission_ru" label="natomission_ru">
+        <attvalues>
+          <attvalue for="0" value="260.0" />
+          <attvalue for="1" value="260.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="DmytroKuleba" label="DmytroKuleba">
+        <attvalues>
+          <attvalue for="0" value="259.0" />
+          <attvalue for="1" value="259.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="2398" />
+        </attvalues>
+      </node>
+      <node id="RusembUkraine" label="RusembUkraine">
+        <attvalues>
+          <attvalue for="0" value="255.0" />
+          <attvalue for="1" value="255.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="ABC" label="ABC">
+        <attvalues>
+          <attvalue for="0" value="253.0" />
+          <attvalue for="1" value="249.0" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="2625" />
+        </attvalues>
+      </node>
+      <node id="SamRamani2" label="SamRamani2">
+        <attvalues>
+          <attvalue for="0" value="248.0" />
+          <attvalue for="1" value="245.0" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="183" />
+        </attvalues>
+      </node>
+      <node id="spectatorindex" label="spectatorindex">
+        <attvalues>
+          <attvalue for="0" value="246.0" />
+          <attvalue for="1" value="246.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="444" />
+        </attvalues>
+      </node>
+      <node id="AJDillen1" label="AJDillen1">
+        <attvalues>
+          <attvalue for="0" value="245.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="245.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="55031" />
+        </attvalues>
+      </node>
+      <node id="VP" label="VP">
+        <attvalues>
+          <attvalue for="0" value="245.0" />
+          <attvalue for="1" value="245.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="92" />
+        </attvalues>
+      </node>
+      <node id="IAPonomarenko" label="IAPonomarenko">
+        <attvalues>
+          <attvalue for="0" value="244.0" />
+          <attvalue for="1" value="234.0" />
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="3335" />
+        </attvalues>
+      </node>
+      <node id="MailOnline" label="MailOnline">
+        <attvalues>
+          <attvalue for="0" value="243.0" />
+          <attvalue for="1" value="243.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1167" />
+        </attvalues>
+      </node>
+      <node id="27khv" label="27khv">
+        <attvalues>
+          <attvalue for="0" value="243.0" />
+          <attvalue for="1" value="237.0" />
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="14" />
+        </attvalues>
+      </node>
+      <node id="WorldBeyondWar" label="WorldBeyondWar">
+        <attvalues>
+          <attvalue for="0" value="239.0" />
+          <attvalue for="1" value="232.0" />
+          <attvalue for="2" value="7.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="48" />
+        </attvalues>
+      </node>
+      <node id="googlenews" label="googlenews">
+        <attvalues>
+          <attvalue for="0" value="237.0" />
+          <attvalue for="1" value="237.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="3803" />
+        </attvalues>
+      </node>
+      <node id="Keir_Starmer" label="Keir_Starmer">
+        <attvalues>
+          <attvalue for="0" value="236.0" />
+          <attvalue for="1" value="236.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="Snowden" label="Snowden">
+        <attvalues>
+          <attvalue for="0" value="233.0" />
+          <attvalue for="1" value="233.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1831" />
+        </attvalues>
+      </node>
+      <node id="RussiaUN" label="RussiaUN">
+        <attvalues>
+          <attvalue for="0" value="233.0" />
+          <attvalue for="1" value="232.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="amborin" label="amborin">
+        <attvalues>
+          <attvalue for="0" value="233.0" />
+          <attvalue for="1" value="10.0" />
+          <attvalue for="2" value="223.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="23476" />
+        </attvalues>
+      </node>
+      <node id="ChristopherJM" label="ChristopherJM">
+        <attvalues>
+          <attvalue for="0" value="233.0" />
+          <attvalue for="1" value="222.0" />
+          <attvalue for="2" value="11.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1786" />
+        </attvalues>
+      </node>
+      <node id="anneapplebaum" label="anneapplebaum">
+        <attvalues>
+          <attvalue for="0" value="224.0" />
+          <attvalue for="1" value="224.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="3984" />
+        </attvalues>
+      </node>
+      <node id="gmh_upsa" label="gmh_upsa">
+        <attvalues>
+          <attvalue for="0" value="224.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="224.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="25" />
+        </attvalues>
+      </node>
+      <node id="CBSNews" label="CBSNews">
+        <attvalues>
+          <attvalue for="0" value="223.0" />
+          <attvalue for="1" value="222.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="653" />
+        </attvalues>
+      </node>
+      <node id="aaronjmate" label="aaronjmate">
+        <attvalues>
+          <attvalue for="0" value="223.0" />
+          <attvalue for="1" value="207.0" />
+          <attvalue for="2" value="16.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="939" />
+        </attvalues>
+      </node>
+      <node id="Davidmetroland" label="Davidmetroland">
+        <attvalues>
+          <attvalue for="0" value="221.0" />
+          <attvalue for="1" value="17.0" />
+          <attvalue for="2" value="204.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="17021" />
+        </attvalues>
+      </node>
+      <node id="olgatokariuk" label="olgatokariuk">
+        <attvalues>
+          <attvalue for="0" value="220.0" />
+          <attvalue for="1" value="210.0" />
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="915" />
+        </attvalues>
+      </node>
+      <node id="RF_OSCE" label="RF_OSCE">
+        <attvalues>
+          <attvalue for="0" value="219.0" />
+          <attvalue for="1" value="219.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="vonderleyen" label="vonderleyen">
+        <attvalues>
+          <attvalue for="0" value="215.0" />
+          <attvalue for="1" value="215.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1400" />
+        </attvalues>
+      </node>
+      <node id="LBC" label="LBC">
+        <attvalues>
+          <attvalue for="0" value="215.0" />
+          <attvalue for="1" value="201.0" />
+          <attvalue for="2" value="14.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="5141" />
+        </attvalues>
+      </node>
+      <node id="AdamKinzinger" label="AdamKinzinger">
+        <attvalues>
+          <attvalue for="0" value="206.0" />
+          <attvalue for="1" value="206.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="1285" />
+        </attvalues>
+      </node>
+      <node id="VaushV" label="VaushV">
+        <attvalues>
+          <attvalue for="0" value="206.0" />
+          <attvalue for="1" value="206.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="2388" />
+        </attvalues>
+      </node>
+      <node id="BconnectedJ" label="BconnectedJ">
+        <attvalues>
+          <attvalue for="0" value="204.0" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="198.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="3185" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="McFaul" target="SecBlinken" id="0" weight="1.0" type="mention" />
+      <edge source="McFaul" target="nytimes" id="1" weight="1.0" type="mention" />
+      <edge source="Reuters" target="Reuters" id="2" weight="1.0" type="mention" />
+      <edge source="SecBlinken" target="StateDept" id="3" weight="1.0" type="mention" />
+      <edge source="mfa_russia" target="StateDept" id="4" weight="1.0" type="mention" />
+      <edge source="PoliticalGeeker" target="CFL68" id="5" weight="1.0" type="mention" />
+      <edge source="PoliticalGeeker" target="BBCNews" id="6" weight="1.0" type="mention" />
+      <edge source="PoliticalGeeker" target="washingtonpost" id="7" weight="5.0" type="mention" />
+      <edge source="PoliticalGeeker" target="SamRamani2" id="8" weight="1.0" type="mention" />
+      <edge source="PoliticalGeeker" target="IAPonomarenko" id="9" weight="1.0" type="mention" />
+      <edge source="PoliticalGeeker" target="thehill" id="10" weight="3.0" type="mention" />
+      <edge source="PoliticalGeeker" target="ASBMilitary" id="11" weight="1.0" type="mention" />
+      <edge source="PoliticalGeeker" target="MFA_Ukraine" id="12" weight="3.0" type="mention" />
+      <edge source="StateDept" target="POTUS" id="13" weight="3.0" type="mention" />
+      <edge source="ggreenwald" target="aaronjmate" id="14" weight="1.0" type="mention" />
+      <edge source="EndGameWW3" target="NBCNews" id="15" weight="1.0" type="mention" />
+      <edge source="EndGameWW3" target="CBSNews" id="16" weight="2.0" type="mention" />
+      <edge source="JP1958S" target="GBNEWS" id="17" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="natomission_ru" id="18" weight="10.0" type="mention" />
+      <edge source="JP1958S" target="MFA_Ukraine" id="19" weight="3.0" type="mention" />
+      <edge source="JP1958S" target="27khv" id="20" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="StateDept" id="21" weight="9.0" type="mention" />
+      <edge source="JP1958S" target="DmytroKuleba" id="22" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="RusembUkraine" id="23" weight="8.0" type="mention" />
+      <edge source="JP1958S" target="aaronjmate" id="24" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="RusEmbUSA" id="25" weight="19.0" type="mention" />
+      <edge source="JP1958S" target="benandjerrys" id="26" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="RussianEmbassy" id="27" weight="18.0" type="mention" />
+      <edge source="JP1958S" target="RussiaUN" id="28" weight="7.0" type="mention" />
+      <edge source="JP1958S" target="SecBlinken" id="29" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="Reuters" id="30" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="WSJ" id="31" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="RT_com" id="32" weight="5.0" type="mention" />
+      <edge source="JP1958S" target="McFaul" id="33" weight="3.0" type="mention" />
+      <edge source="JP1958S" target="SkyNews" id="34" weight="8.0" type="mention" />
+      <edge source="JP1958S" target="NATO" id="35" weight="5.0" type="mention" />
+      <edge source="JP1958S" target="JackPosobiec" id="36" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="trussliz" id="37" weight="5.0" type="mention" />
+      <edge source="JP1958S" target="RF_OSCE" id="38" weight="7.0" type="mention" />
+      <edge source="JP1958S" target="MailOnline" id="39" weight="2.0" type="mention" />
+      <edge source="JP1958S" target="mfa_russia" id="40" weight="31.0" type="mention" />
+      <edge source="JP1958S" target="POTUS" id="41" weight="4.0" type="mention" />
+      <edge source="JP1958S" target="Meekeelee011" id="42" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="BBCWorld" id="43" weight="14.0" type="mention" />
+      <edge source="JP1958S" target="ZelenskyyUa" id="44" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="Snowden" id="45" weight="1.0" type="mention" />
+      <edge source="JP1958S" target="KremlinRussia_E" id="46" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="RusEmbUSA" id="47" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="RALee85" id="48" weight="3.0" type="mention" />
+      <edge source="swimming_free" target="WhiteHouse" id="49" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="UN" id="50" weight="6.0" type="mention" />
+      <edge source="swimming_free" target="natomission_ru" id="51" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="KremlinRussia_E" id="52" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="UkrWarReport" id="53" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="ASBMilitary" id="54" weight="8.0" type="mention" />
+      <edge source="swimming_free" target="Ukraine" id="55" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="zerohedge" id="56" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="RT_com" id="57" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="mfa_russia" id="58" weight="7.0" type="mention" />
+      <edge source="swimming_free" target="BBCWorld" id="59" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="RussianEmbassy" id="60" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="SkyNews" id="61" weight="1.0" type="mention" />
+      <edge source="swimming_free" target="27khv" id="62" weight="11.0" type="mention" />
+      <edge source="swimming_free" target="swimming_free" id="63" weight="7.0" type="reply" />
+      <edge source="swimming_free" target="NATO" id="64" weight="3.0" type="mention" />
+      <edge source="swimming_free" target="ggreenwald" id="65" weight="6.0" type="mention" />
+      <edge source="swimming_free" target="CNN" id="66" weight="3.0" type="mention" />
+      <edge source="swimming_free" target="anneapplebaum" id="67" weight="1.0" type="mention" />
+      <edge source="walterlekh" target="McFaul" id="68" weight="12.0" type="mention" />
+      <edge source="walterlekh" target="NATO" id="69" weight="1.0" type="mention" />
+      <edge source="walterlekh" target="JackPosobiec" id="70" weight="3.0" type="mention" />
+      <edge source="walterlekh" target="ZelenskyyUa" id="71" weight="2.0" type="mention" />
+      <edge source="walterlekh" target="benandjerrys" id="72" weight="1.0" type="mention" />
+      <edge source="walterlekh" target="anneapplebaum" id="73" weight="1.0" type="mention" />
+      <edge source="walterlekh" target="StateDept" id="74" weight="2.0" type="mention" />
+      <edge source="walterlekh" target="SamRamani2" id="75" weight="2.0" type="mention" />
+      <edge source="walterlekh" target="EndGameWW3" id="76" weight="14.0" type="mention" />
+      <edge source="walterlekh" target="SecBlinken" id="77" weight="5.0" type="mention" />
+      <edge source="walterlekh" target="NatashaBertrand" id="78" weight="2.0" type="mention" />
+      <edge source="walterlekh" target="zerohedge" id="79" weight="3.0" type="mention" />
+      <edge source="walterlekh" target="RALee85" id="80" weight="2.0" type="mention" />
+      <edge source="walterlekh" target="MFA_Ukraine" id="81" weight="1.0" type="mention" />
+      <edge source="walterlekh" target="POTUS" id="82" weight="1.0" type="mention" />
+      <edge source="walterlekh" target="washingtonpost" id="83" weight="1.0" type="mention" />
+      <edge source="walterlekh" target="AFP" id="84" weight="1.0" type="mention" />
+      <edge source="walterlekh" target="walterlekh" id="85" weight="1.0" type="reply" />
+      <edge source="walterlekh" target="nytimes" id="86" weight="1.0" type="mention" />
+      <edge source="KyivIndependent" target="washingtonpost" id="87" weight="1.0" type="mention" />
+      <edge source="KyivIndependent" target="IAPonomarenko" id="88" weight="1.0" type="mention" />
+      <edge source="nigethugrug" target="BorisJohnson" id="89" weight="1.0" type="mention" />
+      <edge source="nigethugrug" target="vonderleyen" id="90" weight="1.0" type="mention" />
+      <edge source="nigethugrug" target="trussliz" id="91" weight="1.0" type="mention" />
+      <edge source="nigethugrug" target="GBNEWS" id="92" weight="3.0" type="mention" />
+      <edge source="RussianEmbassy" target="SkyNews" id="93" weight="1.0" type="mention" />
+      <edge source="Meekeelee011" target="benandjerrys" id="94" weight="12.0" type="mention" />
+      <edge source="Meekeelee011" target="EndGameWW3" id="95" weight="3.0" type="mention" />
+      <edge source="Meekeelee011" target="aaronjmate" id="96" weight="7.0" type="mention" />
+      <edge source="Meekeelee011" target="JP1958S" id="97" weight="5.0" type="mention" />
+      <edge source="Meekeelee011" target="STWuk" id="98" weight="1.0" type="mention" />
+      <edge source="Meekeelee011" target="SecBlinken" id="99" weight="2.0" type="mention" />
+      <edge source="Meekeelee011" target="NATO" id="100" weight="1.0" type="mention" />
+      <edge source="Meekeelee011" target="zerohedge" id="101" weight="1.0" type="mention" />
+      <edge source="Meekeelee011" target="Russia" id="102" weight="1.0" type="mention" />
+      <edge source="Meekeelee011" target="POTUS" id="103" weight="1.0" type="mention" />
+      <edge source="CFL68" target="jensstoltenberg" id="104" weight="1.0" type="mention" />
+      <edge source="CFL68" target="RussiaUN" id="105" weight="2.0" type="mention" />
+      <edge source="CFL68" target="NatashaBertrand" id="106" weight="1.0" type="mention" />
+      <edge source="CFL68" target="natomission_ru" id="107" weight="3.0" type="mention" />
+      <edge source="CFL68" target="StateDept" id="108" weight="1.0" type="mention" />
+      <edge source="CFL68" target="PoliticalGeeker" id="109" weight="1.0" type="mention" />
+      <edge source="CFL68" target="RALee85" id="110" weight="1.0" type="mention" />
+      <edge source="CFL68" target="SkyNews" id="111" weight="1.0" type="mention" />
+      <edge source="CFL68" target="UkrWarReport" id="112" weight="2.0" type="mention" />
+      <edge source="CFL68" target="YouTube" id="113" weight="1.0" type="mention" />
+      <edge source="CFL68" target="NATO" id="114" weight="2.0" type="mention" />
+      <edge source="CFL68" target="RF_OSCE" id="115" weight="1.0" type="mention" />
+      <edge source="CFL68" target="RT_com" id="116" weight="4.0" type="mention" />
+      <edge source="CFL68" target="McFaul" id="117" weight="1.0" type="mention" />
+      <edge source="CFL68" target="FoxNews" id="118" weight="1.0" type="mention" />
+      <edge source="CFL68" target="JP1958S" id="119" weight="3.0" type="mention" />
+      <edge source="CFL68" target="mfa_russia" id="120" weight="5.0" type="mention" />
+      <edge source="CFL68" target="RusEmbUSA" id="121" weight="3.0" type="mention" />
+      <edge source="CFL68" target="RussianEmbassy" id="122" weight="2.0" type="mention" />
+      <edge source="CFL68" target="BBCWorld" id="123" weight="1.0" type="mention" />
+      <edge source="CFL68" target="MFA_Ukraine" id="124" weight="2.0" type="mention" />
+      <edge source="CFL68" target="27khv" id="125" weight="1.0" type="mention" />
+      <edge source="CFL68" target="Ukraine" id="126" weight="1.0" type="mention" />
+      <edge source="CFL68" target="Reuters" id="127" weight="1.0" type="mention" />
+      <edge source="CFL68" target="SecBlinken" id="128" weight="1.0" type="mention" />
+      <edge source="CFL68" target="RusembUkraine" id="129" weight="2.0" type="mention" />
+      <edge source="jamesmoylan77" target="trussliz" id="130" weight="1.0" type="mention" />
+      <edge source="jamesmoylan77" target="VP" id="131" weight="4.0" type="mention" />
+      <edge source="jamesmoylan77" target="GBNEWS" id="132" weight="1.0" type="mention" />
+      <edge source="jamesmoylan77" target="BorisJohnson" id="133" weight="2.0" type="mention" />
+      <edge source="jamesmoylan77" target="jamesmoylan77" id="134" weight="1.0" type="reply" />
+      <edge source="jamesmoylan77" target="POTUS" id="135" weight="3.0" type="mention" />
+      <edge source="jamesmoylan77" target="ABC" id="136" weight="1.0" type="mention" />
+      <edge source="jamesmoylan77" target="LBC" id="137" weight="2.0" type="mention" />
+      <edge source="jamesmoylan77" target="NATO" id="138" weight="1.0" type="mention" />
+      <edge source="AVindman" target="DmytroKuleba" id="139" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="ASBMilitary" id="140" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="McFaul" id="141" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="mfa_russia" id="142" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="JP1958S" id="143" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="TulsiGabbard" id="144" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="ABC" id="145" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="WSJ" id="146" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="CBSNews" id="147" weight="2.0" type="mention" />
+      <edge source="PurcellGregory" target="Meekeelee011" id="148" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="ggreenwald" id="149" weight="5.0" type="mention" />
+      <edge source="PurcellGregory" target="VaushV" id="150" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="JackPosobiec" id="151" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="RALee85" id="152" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="EndGameWW3" id="153" weight="1.0" type="mention" />
+      <edge source="PurcellGregory" target="newsmax" id="154" weight="1.0" type="mention" />
+      <edge source="ASBMilitary" target="ASBMilitary" id="155" weight="1.0" type="reply" />
+      <edge source="ASBMilitary" target="UkrWarReport" id="156" weight="1.0" type="mention" />
+      <edge source="STWuk" target="STWuk" id="157" weight="3.0" type="mention" />
+      <edge source="ABC" target="ABC" id="158" weight="1.0" type="mention" />
+      <edge source="IAPonomarenko" target="ZelenskyyUa" id="159" weight="1.0" type="mention" />
+      <edge source="IAPonomarenko" target="ChristopherJM" id="160" weight="1.0" type="mention" />
+      <edge source="IAPonomarenko" target="LBC" id="161" weight="1.0" type="mention" />
+      <edge source="27khv" target="mfa_russia" id="162" weight="1.0" type="mention" />
+      <edge source="RussiaUN" target="RT_com" id="163" weight="1.0" type="mention" />
+      <edge source="amborin" target="NATO" id="164" weight="1.0" type="mention" />
+      <edge source="amborin" target="SecBlinken" id="165" weight="7.0" type="mention" />
+      <edge source="amborin" target="thehill" id="166" weight="2.0" type="mention" />
+      <edge source="amborin" target="newsmax" id="167" weight="1.0" type="mention" />
+      <edge source="amborin" target="TuckerCarlson" id="168" weight="1.0" type="mention" />
+      <edge source="amborin" target="ggreenwald" id="169" weight="16.0" type="mention" />
+      <edge source="amborin" target="AP" id="170" weight="2.0" type="mention" />
+      <edge source="amborin" target="JackPosobiec" id="171" weight="8.0" type="mention" />
+      <edge source="amborin" target="EmmanuelMacron" id="172" weight="1.0" type="mention" />
+      <edge source="amborin" target="UN" id="173" weight="1.0" type="mention" />
+      <edge source="amborin" target="POTUS" id="174" weight="5.0" type="mention" />
+      <edge source="amborin" target="27khv" id="175" weight="4.0" type="mention" />
+      <edge source="amborin" target="amborin" id="176" weight="1.0" type="reply" />
+      <edge source="amborin" target="Keir_Starmer" id="177" weight="1.0" type="mention" />
+      <edge source="amborin" target="McFaul" id="178" weight="1.0" type="mention" />
+      <edge source="amborin" target="StateDept" id="179" weight="2.0" type="mention" />
+      <edge source="amborin" target="mfa_russia" id="180" weight="1.0" type="mention" />
+      <edge source="amborin" target="JoeBiden" id="181" weight="1.0" type="mention" />
+      <edge source="amborin" target="jensstoltenberg" id="182" weight="1.0" type="mention" />
+      <edge source="amborin" target="aaronjmate" id="183" weight="2.0" type="mention" />
+      <edge source="amborin" target="TulsiGabbard" id="184" weight="1.0" type="mention" />
+      <edge source="ChristopherJM" target="IAPonomarenko" id="185" weight="1.0" type="mention" />
+      <edge source="ChristopherJM" target="jensstoltenberg" id="186" weight="1.0" type="mention" />
+      <edge source="gmh_upsa" target="JoeBiden" id="187" weight="1.0" type="mention" />
+      <edge source="gmh_upsa" target="nytimes" id="188" weight="1.0" type="mention" />
+      <edge source="gmh_upsa" target="YouTube" id="189" weight="1.0" type="mention" />
+      <edge source="gmh_upsa" target="vonderleyen" id="190" weight="1.0" type="mention" />
+      <edge source="gmh_upsa" target="UN" id="191" weight="1.0" type="mention" />
+      <edge source="aaronjmate" target="NBCNews" id="192" weight="1.0" type="mention" />
+      <edge source="aaronjmate" target="aaronjmate" id="193" weight="1.0" type="mention" />
+      <edge source="Davidmetroland" target="BBCNews" id="194" weight="1.0" type="mention" />
+      <edge source="Davidmetroland" target="SkyNews" id="195" weight="1.0" type="mention" />
+      <edge source="Davidmetroland" target="CNN" id="196" weight="1.0" type="mention" />
+      <edge source="olgatokariuk" target="KyivIndependent" id="197" weight="1.0" type="mention" />
+      <edge source="olgatokariuk" target="washingtonpost" id="198" weight="2.0" type="mention" />
+      <edge source="LBC" target="STWuk" id="199" weight="3.0" type="mention" />
+      <edge source="BconnectedJ" target="POTUS" id="200" weight="1.0" type="mention" />
+      <edge source="BconnectedJ" target="CNN" id="201" weight="1.0" type="mention" />
+      <edge source="BconnectedJ" target="JoeBiden" id="202" weight="1.0" type="mention" />
+    </edges>
+  </graph>
+</gexf>
