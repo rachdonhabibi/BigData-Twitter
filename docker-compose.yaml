@@ -124,7 +124,7 @@ services:
       - AIRFLOW_DATABASE_PORT_NUMBER=5432
       # Utiliser la DB créée par Postgres
       - AIRFLOW_DATABASE_NAME=reddit_db
-      - AIRFLOW_DATABASE_USER=postgres
+      - AIRFLOW_DATABASE_USERNAME=postgres      # <--- ICI (USERNAME, pas USER)
       - AIRFLOW_DATABASE_PASSWORD=postgres
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       # --- MODE ÉCO ---
